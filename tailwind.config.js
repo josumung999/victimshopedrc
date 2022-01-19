@@ -7,14 +7,14 @@ module.exports = {
     extend: {},
     fontFamily: {
       Dongle: ["Dongle", "sans-serif"],
-      Fredoka: ["Fredoka One", "sans-serif"]
+      Fredoka: ["Fredoka One", "sans-serif"],
+      Raleway: ["Raleway", "sans-serif"],
+      Syncopate: ["Syncopate", "sans-serif"]
     },
     fontSize: {
-      sm: ['14px', '20px'],
-      base: ['16px', '24px'],
-      lg: ['20px', '28px'],
-      '1xl': "2.5rem",
-      '3xl': "3.5rem"
+      'sm': ".6rem",
+      '1xl': "1.5rem",
+      '3xl': "4rem"
     }
   },
   plugins: [],

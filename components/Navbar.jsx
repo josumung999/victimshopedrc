@@ -19,13 +19,13 @@ const Navbar = () => {
               Victim's Hope
             </span>
           </a>
-          <ul className="font-Dongle text-xl uppercase flex items-center hidden space-x-8 lg:flex">
+          <ul className="font-Dongle uppercase flex items-center hidden space-x-8 lg:flex">
             <li>
               <a
                 href="/"
                 aria-label="Accueil"
                 title="Accueil"
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
+                className="font-medium text-1xl tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
               >
                 Accueil
               </a>
@@ -35,7 +35,7 @@ const Navbar = () => {
                 href="/domaines"
                 aria-label="Domaines d'Intervention"
                 title="Domaines d'Intervention"
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
+                className="font-medium text-1xl tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
               >
                 Domaines d'Intervention
               </a>
@@ -45,7 +45,7 @@ const Navbar = () => {
                 href="/realisations"
                 aria-label="Réalisations"
                 title="Réalisations"
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
+                className="font-medium text-1xl tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
               >
                 Réalisations
               </a>
@@ -55,17 +55,17 @@ const Navbar = () => {
                 href="/contact"
                 aria-label="Contact"
                 title="Contact"
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
+                className="font-medium text-1xl tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
               >
                 Contact
               </a>
             </li>
           </ul>
-          <ul className="font-Dongle text-xl flex items-center hidden space-x-8 lg:flex">
+          <ul className="font-Raleway text-sm flex items-center hidden space-x-8 lg:flex">
             <li>
               <a
                 href="/donate"
-                className="inline-flex items-center justify-center h-10 px-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-400 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
+                className="inline-flex items-center justify-center h-10 px-4 font-bold tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-400 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
                 aria-label="Sign up"
                 title="Sign up"
               >
