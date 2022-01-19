@@ -15,7 +15,7 @@ const Navbar = () => {
             title="Company"
             className="inline-flex items-center"
           >
-            <span className="ml-2 text-xl font-bold tracking-wide text-gray-100">
+            <span className="ml-2 text-lg font-bold tracking-wide text-gray-100">
               Victim's Hope
             </span>
           </a>
@@ -96,7 +96,7 @@ const Navbar = () => {
               </svg>
             </button>
             {isMenuOpen && (
-              <div className="absolute top-0 left-0 w-full">
+              <div className="absolute z-index-50 top-0 left-0 w-full">
                 <div className="p-5 bg-white border rounded shadow-sm">
                   <div className="flex items-center justify-between mb-4">
                     <div>
@@ -106,7 +106,7 @@ const Navbar = () => {
                         title="Company"
                         className="inline-flex items-center"
                       >
-                        <span className="ml-2 text-xl font-bold tracking-wide text-gray-800">
+                        <span className="ml-2 text-lg font-bold tracking-wide text-gray-800">
                           Victim's Hope
                         </span>
                       </a>
