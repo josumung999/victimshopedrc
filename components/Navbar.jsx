@@ -6,7 +6,7 @@ import { useState } from "react"
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="bg-gray-900">
+    <div className="bg-slate-700 dark:bg-gray-900">
       <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="relative flex items-center justify-between">
           <a
@@ -32,7 +32,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="/domaines-dintervention"
+                href="/domaines"
                 aria-label="Domaines d'Intervention"
                 title="Domaines d'Intervention"
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
@@ -96,8 +96,8 @@ const Navbar = () => {
               </svg>
             </button>
             {isMenuOpen && (
-              <div className="absolute z-index-50 top-0 left-0 w-full">
-                <div className="p-5 bg-white border rounded shadow-sm">
+              <div className="absolute z-50 top-0 left-0 w-full">
+                <div className="p-5 bg-white dark:bg-slate-700 dark:border-none border rounded shadow-sm">
                   <div className="flex items-center justify-between mb-4">
                     <div>
                       <a
@@ -106,7 +106,7 @@ const Navbar = () => {
                         title="Company"
                         className="inline-flex items-center"
                       >
-                        <span className="ml-2 text-lg font-bold tracking-wide text-gray-800">
+                        <span className="ml-2 text-lg font-bold tracking-wide text-gray-800 dark:text-white">
                           Victim's Hope
                         </span>
                       </a>
@@ -134,17 +134,17 @@ const Navbar = () => {
                           href="/"
                           aria-label="Accueil"
                           title="Accueil"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400"
+                          className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-purple-400"
                         >
                           Accueil
                         </a>
                       </li>
                       <li>
                         <a
-                          href="/domaines-dintervention"
+                          href="/domaines"
                           aria-label="Domaines d'Intervention"
                           title="Domaines d'Intervention"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400"
+                          className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-purple-400"
                         >
                           Domaines d'Intervention
                         </a>
@@ -154,7 +154,7 @@ const Navbar = () => {
                           href="/realisations"
                           aria-label="Réalisations"
                           title="Réalisations"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400"
+                          className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-purple-400"
                         >
                           Réalisations
                         </a>
@@ -164,7 +164,7 @@ const Navbar = () => {
                           href="/contact"
                           aria-label="Contact"
                           title="Contact"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400"
+                          className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-purple-400"
                         >
                           Contact
                         </a>
@@ -189,187 +189,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-  /*return (
-    <div className="bg-gray-900">
-      <div className="px-4 py5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-        <div className="relative flex items-center justify between">
-          <a
-            href="/"
-            aria-label="Victim's Hope"
-            title="Victim's Hope"
-            className="inline-flex items-center"
-          >
-            <FontAwesomeIcon
-              icon={faGlobe}
-              className="w-8 text-teal-accent-400"
-            />
-            <span className="ml-2 text-xl font-bold tracking-wide text-gray-100">
-              Victim's Hope
-            </span>
-          </a>
-          <ul class="flex items-center hidden space-x-8 lg:flex">
-            <li>
-              <Link
-                href="/"
-                aria-label="Accueil"
-                title="Accueil"
-                class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-              >
-                Accueil
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/domaines-dintervention"
-                aria-label="Domaines d'Intervention"
-                title="Domaines d'Intervention"
-                class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-              >
-                Domaines d'Intervention
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/realisations"
-                aria-label="Réalisations"
-                title="Réalisations"
-                class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-              >
-                Réalisations
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/contact"
-                aria-label="Contact"
-                title="Contact"
-                class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-              >
-                Contact
-              </Link>
-            </li>
-          </ul>
-          <ul class="flex items-center hidden space-x-8 lg:flex">
-            <li>
-              <a
-                href="/donate"
-                class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                aria-label="Sign up"
-                title="Sign up"
-              >
-                <FontAwesomeIcon
-                  icon={faGift} 
-                />{' '}
-                Faire un Don
-              </a>
-            </li>
-          </ul>
-          <div className="lg:hidden">
-            <button
-              aria-label="Ouvrir Menu"
-              title="Ouvrir Menu"
-              className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline"
-              onClick={() => setIsMenuOpen(true)}
-            >
-              <FontAwesomeIcon
-                icon={faBars}
-                class="w-5 text-gray-600"
-              />
-            </button>
-            {isMenuOpen && (
-              <div className="absolute top-0 left-0 w-full">
-                <div className="p-5 bg-white border rounded shadow-sm">
-                  <div className="flex items-center justify-between mb-4">
-                    <div>
-                      <a
-                        href="/"
-                        aria-label="Victim's Hope"
-                        title="Victim's Hope"
-                        className="inline-flex items-center"
-                      >
-                        <FontAwesomeIcon
-                          icon={faGlobe}
-                          className="w-8 text-teal-accent-400"
-                        />
-                        <span className="ml-2 text-xl font-bold tracking-wide text-gray-100">
-                          Victim's Hope
-                        </span>
-                      </a>
-                    </div>
-                    <div>
-                      <button
-                        aria-label="Fermer Menu"
-                        title="Fermer Menu"
-                        class="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-                        onClick={() => setIsMenuOpen(false)}
-                      >
-                        <FontAwesomeIcon 
-                          icon={times}
-                          class="w-5 text-gray-600"
-                        />
-                      </button>
-                    </div>
-                  </div>
-                  <nav>
-                    <ul className="space-y-4">
-                      <li>
-                        <Link
-                          href="/"
-                          aria-label="Accueil"
-                          title="Accueil"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                          Accueil
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/domaines-dintervention"
-                          aria-label="Domaines d'Intervention"
-                          title="Domaines d'Intervention"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                          Domaines d'Intervention
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/realisations"
-                          aria-label="Réalisations"
-                          title="Réalisations"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                          Réalisations
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/contact"
-                          aria-label="Contact"
-                          title="Contact"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                          Contact
-                        </Link>
-                      </li>
-                      <li>
-                        <a
-                          href="/donate"
-                          className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                        >
-                          Faire un Don
-                        </a>
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-            )}
-          </div>
-        </div>
-      </div>
-    </div>
-  ) */
 }
 
 export default Navbar

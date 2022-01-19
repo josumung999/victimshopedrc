@@ -20,10 +20,10 @@ const Hero = () => {
         </div>
         <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
           <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
-            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-400 lg:animate-bounce">
+            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-400 dark:bg-transparent dark:text-teal-400 lg:animate-bounce">
               Victim's Hope DRC
             </p>
-            <h2 className="mb-5 text-4xl sm:text-1xl font-Fredoka tracking-tight text-gray-900 sm:leading-none">
+            <h2 className="mb-5 text-4xl sm:text-1xl font-Fredoka tracking-tight text-gray-900 dark:text-gray-200 sm:leading-none">
               Pour une Société {' '}
               <br className="hidden md:block" />
               Juste et{' '}
@@ -31,7 +31,7 @@ const Hero = () => {
                 Équitable
               </span>
             </h2>
-            <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
+            <p className="pr-5 mb-5 text-base text-gray-700 dark:text-gray-400 md:text-lg">
               Victim's Hope DRC (VH-DRC), une organisation des droits congolais est basée à Bukavu,
                et vise à contribuer à une société juste et équitable.
                 En plus des interventions humanitaires d’urgence et développement, 
@@ -47,7 +47,7 @@ const Hero = () => {
               <a
                 href="/domaines-dintervention"
                 aria-label=""
-                className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-purple-700"
+                className="inline-flex items-center font-semibold text-gray-800 dark:text-gray-200 transition-colors duration-200 hover:text-purple-700"
               >
                 En Savoir Plus
               </a>
