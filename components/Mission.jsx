@@ -10,7 +10,7 @@ const Mission = () => {
             <FontAwesomeIcon className="text-teal-900 h-10 w-10" icon={faBullseye} />
           </div>
           <div className="max-w-xl mb-6">
-            <h2 className="max-w-lg mb-6 font-Dongle text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-200 sm:text-4xl sm:leading-none">
+            <h2 className="max-w-lg mb-6 font-Raleway text-3xl font-black tracking-tight text-gray-900 dark:text-gray-200 sm:text-4xl sm:leading-none">
               Nos Convictions{' '}
               <br className="hidden md:block" />
               sont{' '}
@@ -18,7 +18,7 @@ const Mission = () => {
                 notre Mission
               </span>
             </h2>
-            <p className="text-base font-Raleway font-normal text-gray-700 dark:text-gray-300 md:text-lg">
+            <p className="text-base font-Roboto font-normal text-gray-700 dark:text-gray-300 md:text-lg">
               Nous avons comme mission de Promouvoir les Droits Humains à travers une assistance 
               opportune et efficace à l’endroit des victimes vulnérabilisées 
               par différentes crises de nature humaines et naturelles dans le 
@@ -29,7 +29,7 @@ const Mission = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-purple-400 hover:text-purple-800"
+              className="inline-flex items-center font-semibold font-Raleway transition-colors duration-200 text-purple-400 hover:text-purple-800"
             >
               En Savoir Plus
               <svg

@@ -23,11 +23,11 @@ const Hero = () => {
             <p className="inline-block px-3 py-px mb-4 text-xs font-semibold font-Roboto tracking-wider text-teal-900 uppercase rounded-full bg-teal-400 dark:bg-transparent dark:text-teal-400 lg:animate-bounce">
               Victim's Hope DRC
             </p>
-            <h2 className="mb-5 text-3xl lg:text-4xl font-black font-Roboto font-bold tracking-tight text-gray-900 dark:text-gray-200 sm:leading-none">
+            <h2 className="mb-5 text-3xl sm:text-4xl font-black font-Raleway font-bold tracking-tight text-gray-900 dark:text-gray-200 sm:leading-none">
               Pour une Société {' '}
               <br className="hidden md:block" />
               Juste et{' '}
-              <span className="inline-block text-purple-500">
+              <span className="inline-block text-purple-400">
                 Équitable
               </span>
             </h2>
@@ -40,7 +40,7 @@ const Hero = () => {
             <div className="flex items-center">
               <a
                 href="/contact"
-                className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-500 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
+                className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-400 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
               >
                 Rejoindre
               </a>

@@ -3,11 +3,11 @@ const Summary = () => {
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
-          <p className="inline-block px-3 py-px mb-4 text-xs font-Raleway font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-400">
+          <p className="inline-block px-3 py-px mb-4 text-xs font-Roboto font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-400">
             Domaines d'Intervention
           </p>
         </div>
-        <h2 className="max-w-lg mb-6 font-Dongle text-3xl font-bold leading-none tracking-tight text-gray-900 dark:text-gray-300 sm:text-4xl md:mx-auto">
+        <h2 className="max-w-lg mb-6 font-Raleway text-2xl font-bold font-black leading-normal tracking-tight text-gray-900 dark:text-gray-200 sm:text-3xl md:mx-auto">
           <span className="relative inline-block">
             <svg
               viewBox="0 0 52 24"
@@ -35,7 +35,7 @@ const Summary = () => {
           </span>{' '}
           Intervenons dans les domaines suivants
         </h2>
-        <p className="text-base font-Raleway text-gray-700 dark:text-gray-300 md:text-lg">
+        <p className="text-base font-Roboto text-gray-700 dark:text-gray-300 md:text-lg">
           Dans le contexte de l’Est de la RDC, étant non seulement en proie à l'insécurité 
           caractérisé par des mouvements à répétition des populations mais aussi, 
           théoriquement riche mais pratiquement pauvre, lors de la crise la population 
@@ -85,7 +85,7 @@ const Summary = () => {
       <div className="text-center">
         <a
           href="/domaines"
-          className="inline-flex items-center justify-center w-full h-12 px-6 font-medium font-Raleway tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-purple-400 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
+          className="inline-flex items-center justify-center w-full h-12 px-6 font-medium font-Roboto tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-purple-400 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
         >
           En Savoir Plus
         </a>
