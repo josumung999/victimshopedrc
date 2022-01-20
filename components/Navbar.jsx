@@ -15,17 +15,17 @@ const Navbar = () => {
             title="Company"
             className="inline-flex items-center"
           >
-            <span className="ml-2 text-lg font-bold tracking-wide text-gray-100">
+            <span className="ml-2 text-1xl font-bold tracking-wide text-gray-100">
               Victim's Hope
             </span>
           </a>
-          <ul className="font-Dongle uppercase flex items-center hidden space-x-8 lg:flex">
+          <ul className="font-Roboto font-semibold flex items-center hidden space-x-8 lg:flex">
             <li>
               <a
                 href="/"
                 aria-label="Accueil"
                 title="Accueil"
-                className="font-medium text-1xl tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
+                className="text-xl tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
               >
                 Accueil
               </a>
@@ -35,7 +35,7 @@ const Navbar = () => {
                 href="/domaines"
                 aria-label="Domaines d'Intervention"
                 title="Domaines d'Intervention"
-                className="font-medium text-1xl tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
+                className="text-xl tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
               >
                 Domaines d'Intervention
               </a>
@@ -45,7 +45,7 @@ const Navbar = () => {
                 href="/realisations"
                 aria-label="Réalisations"
                 title="Réalisations"
-                className="font-medium text-1xl tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
+                className="text-xl tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
               >
                 Réalisations
               </a>
@@ -55,19 +55,19 @@ const Navbar = () => {
                 href="/contact"
                 aria-label="Contact"
                 title="Contact"
-                className="font-medium text-1xl tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
+                className="text-xl tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
               >
                 Contact
               </a>
             </li>
           </ul>
-          <ul className="font-Raleway text-sm flex items-center hidden space-x-8 lg:flex">
+          <ul className="font-Roboto text-xl flex items-center hidden space-x-8 lg:flex">
             <li>
               <a
                 href="/donate"
                 className="inline-flex items-center justify-center h-10 px-4 font-bold tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-400 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
-                aria-label="Sign up"
-                title="Sign up"
+                aria-label="Donate"
+                title="Faire un Don"
               >
                 Faire un Don
               </a>
@@ -102,8 +102,8 @@ const Navbar = () => {
                     <div>
                       <a
                         href="/"
-                        aria-label="Company"
-                        title="Company"
+                        aria-label="Vicim's Hope"
+                        title="Vicim's Hope"
                         className="inline-flex items-center"
                       >
                         <span className="ml-2 text-lg font-bold tracking-wide text-gray-800 dark:text-white">
@@ -128,7 +128,7 @@ const Navbar = () => {
                     </div>
                   </div>
                   <nav>
-                    <ul className="space-y-4">
+                    <ul className="space-y-4 font-Roboto">
                       <li>
                         <a
                           href="/"

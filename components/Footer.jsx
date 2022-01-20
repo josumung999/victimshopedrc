@@ -16,7 +16,7 @@ const Footer = () => {
             </span>
           </a>
           <div className="mt-6 lg:max-w-sm">
-            <p className="text-base font-Raleway text-gray-800 dark:text-gray-300">
+            <p className="text-base text-gray-800 dark:text-gray-300">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam.
             </p>
@@ -26,7 +26,7 @@ const Footer = () => {
           <p className="text-2xl font-Dongle font-bold tracking-wide text-gray-900 dark:text-gray-200">
             Contacts
           </p>
-          <div className="flex font-Raleway" style={{fontSize: '16px'}} >
+          <div className="flex" style={{fontSize: '16px'}} >
             <p className="mr-1 text-base text-gray-800 dark:text-gray-300">Phone:</p>
             <a
               href="tel:+243991234567"
@@ -35,7 +35,7 @@ const Footer = () => {
               +243 991 234 567
             </a>
           </div>
-          <div className="flex font-Raleway" style={{fontSize: '16px'}} >
+          <div className="flex" style={{fontSize: '16px'}} >
             <p className="mr-1 text-gray-800 dark:text-gray-300">Email:</p>
             <a
               href="mailto:info@victimshopedrc.org"
@@ -44,7 +44,7 @@ const Footer = () => {
               info@victimshopedrc.org
             </a>
           </div>
-          <div className="flex font-Raleway" style={{fontSize: '16px'}} >
+          <div className="flex" style={{fontSize: '16px'}} >
             <p className="mr-1 text-gray-800 dark:text-gray-300">Address:</p>
             <a
               href="https://www.google.com/maps"
@@ -96,14 +96,14 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
-        <p className="text-base font-Raleway text-gray-600 dark:text-gray-400">
+        <p className="text-base text-gray-600 dark:text-gray-400">
           © Copyright 2022 Victim's Hope. Designed by <a href="https://jmung.tech" className="text-purple-400 hover:text-purple-800" target="_blank" rel="noopener noreferer">@Josué-Munganga</a>
         </p>
         <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
           <li>
             <a
               href="/"
-              className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+              className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300 hover:text-purple-400"
             >
               F.A.Q
             </a>
@@ -111,7 +111,7 @@ const Footer = () => {
           <li>
             <a
               href="/"
-              className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+              className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300 hover:text-purple-400"
             >
               Politique de Confidentialité
             </a>
@@ -119,7 +119,7 @@ const Footer = () => {
           <li>
             <a
               href="/"
-              className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+              className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300 hover:text-purple-400"
             >
               Conditions d'utilisation
             </a>
