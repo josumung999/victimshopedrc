@@ -14,7 +14,7 @@ const Hero = () => {
           </svg>
           <img
             className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
-            src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            src="https://images.pexels.com/photos/9968379/pexels-photo-9968379.jpeg?cs=srgb&dl=pexels-lagos-food-bank-initiative-9968379.jpg&fm=jpg"
             alt=""
           />
         </div>
