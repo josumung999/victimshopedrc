@@ -45,7 +45,7 @@ const Hero = () => {
                 Rejoindre
               </a>
               <a
-                href="/domaines-dintervention"
+                href="/domaines"
                 aria-label=""
                 className="inline-flex items-center font-semibold text-gray-800 dark:text-gray-200 transition-colors duration-200 hover:text-purple-700"
               >

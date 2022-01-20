@@ -3,6 +3,7 @@ import Image from 'next/image'
 import ContainerBlock from '../components/ContainerBlock'
 import Hero from '../components/Hero'
 import Mission from '../components/Mission'
+import Summary from '../components/Summary'
 import Vision from '../components/Vision'
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <Mission />
       <Vision />
+      <Summary />
     </ContainerBlock>
   )
 }
