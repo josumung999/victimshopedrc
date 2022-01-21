@@ -34,7 +34,7 @@ const Hero = () => {
             <p className="pr-5 font-Roboto mb-5 text-xl font-medium text-gray-700 dark:text-gray-400 md:text-lg">
               Victim's Hope DRC (VH-DRC), une organisation des droits congolais est basée à Bukavu,
                et vise à contribuer à une société juste et équitable.
-                En plus des interventions humanitaires d’urgence et développement, 
+                En plus des interventions humanitaires d’urgence et de développement, 
                 VH-DRC s’adonne à la Recherche et au Consulting
             </p>
             <div className="flex items-center">

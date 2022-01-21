@@ -67,7 +67,7 @@ const Summary = () => {
               Genre, Inclusion et Jeunesse
             </h6>
             <p className="text-sm text-gray-900 dark:text-gray-300">
-              Entreprenariat, soutien aux victimes de violences 
+              Entrepreneuriat, soutien aux victimes de violences 
               sexuelles et création d'activités génératrices de revenus.
             </p>
           </div>
