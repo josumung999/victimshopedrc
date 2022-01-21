@@ -1,6 +1,7 @@
 import ContainerBlock from "../components/ContainerBlock"
 import Humanitaire from "../components/Humanitaire"
 import PageHeader from "../components/PageHeader"
+import Rsi from "../components/Rsi"
 
 const domaines = () => {
   return (
@@ -13,6 +14,7 @@ const domaines = () => {
         description="Nous intervenons au profit des victimes de catastrophes par des interventions humanitaire et par la recherche"
       />
       <Humanitaire />
+      <Rsi />
     </ContainerBlock>
   )
 }
