@@ -1,4 +1,3 @@
-import { faCuttlefish } from "@fortawesome/free-brands-svg-icons"
 import { faHamburger, faHeartbeat, faUserGraduate, faVenusMars } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
