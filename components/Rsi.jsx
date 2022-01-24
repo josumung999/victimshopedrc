@@ -1,3 +1,7 @@
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import Link from "next/link"
+
 const Rsi = () => {
   return (
     <div className="bg-slate-700 dark:bg-gray-900">
@@ -60,6 +64,24 @@ const Rsi = () => {
               des données à distances via les Smartphones depuis l’apparition de 
               la pandémie COVID-19. 
               </p>
+              <div className="flex items-center my-6">
+                <a
+                  className="mr-6 inline-flex items-center font-semibold text-purple-400 transition-colors duration-200 hover:text-purple-700"
+                  href="/reports/report-english.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon icon={faFilePdf} className="w-6 h-6 mr-4" /> VH-DRC_Final Report Baseline REDD+_NCA_23102021_English
+                </a>
+                <a
+                  className="mr-6 inline-flex items-center font-semibold text-purple-400 transition-colors duration-200 hover:text-purple-700"
+                  href="/reports/report-french.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon icon={faFilePdf} className="w-6 h-6" /> VH-DRC_Rapport Final-Baseline REDD+_NCA_23102021_Français
+                </a>
+              </div>
             </div>
           </div>
         </div>
