@@ -51,14 +51,14 @@ const Mission = () => {
             />
             <img
               className="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
-              src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="https://reliefweb.int/sites/reliefweb.int/files/styles/report-large/public/report-images/rdc_till-mayer-kongo52.jpg"
               alt=""
             />
           </div>
           <div className="px-3">
             <img
               className="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
-              src="https://images.pexels.com/photos/3182739/pexels-photo-3182739.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+              src="https://www.worldvision.org/wp-content/uploads/2021/05/W324-0052-003-831x566.jpg"
               alt=""
             />
           </div>
