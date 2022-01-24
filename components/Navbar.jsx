@@ -9,68 +9,74 @@ const Navbar = () => {
     <div className="bg-slate-700 dark:bg-gray-900">
       <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="relative flex items-center justify-between">
-          <a
-            href="/"
-            aria-label="Company"
-            title="Company"
-            className="inline-flex items-center"
-          >
-            <span className="ml-2 text-1xl font-bold tracking-wide text-gray-100">
-              Victim's Hope
-            </span>
-          </a>
+          <Link href="/">
+            <a
+              aria-label="Company"
+              title="Company"
+              className="inline-flex items-center"
+            >
+              <span className="ml-2 text-1xl font-bold tracking-wide text-gray-100">
+                Victim's Hope
+              </span>
+            </a>
+          </Link>
           <ul className="font-Roboto font-semibold flex items-center hidden space-x-8 lg:flex">
             <li>
-              <a
-                href="/"
-                aria-label="Accueil"
-                title="Accueil"
-                className="text-xl tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
-              >
-                Accueil
-              </a>
+              <Link href="/">
+                <a
+                  aria-label="Accueil"
+                  title="Accueil"
+                  className="text-xl tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
+                >
+                  Accueil
+                </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/domaines"
-                aria-label="Domaines d'Intervention"
-                title="Domaines d'Intervention"
-                className="text-xl tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
-              >
-                Domaines d'Intervention
-              </a>
+              <Link href="/domaines">
+                <a
+                  aria-label="Domaines d'Intervention"
+                  title="Domaines d'Intervention"
+                  className="text-xl tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
+                >
+                  Domaines d'Intervention
+                </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/realisations"
-                aria-label="Réalisations"
-                title="Réalisations"
-                className="text-xl tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
-              >
-                Réalisations
-              </a>
+              <Link href="/realisations">
+                <a
+                  aria-label="Réalisations"
+                  title="Réalisations"
+                  className="text-xl tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
+                >
+                  Réalisations
+                </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/contact"
-                aria-label="Contact"
-                title="Contact"
-                className="text-xl tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
-              >
-                Contact
-              </a>
+              <Link href="/contact">
+                <a
+                  aria-label="Contact"
+                  title="Contact"
+                  className="text-xl tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
+                >
+                  Contact
+                </a>
+              </Link>
             </li>
           </ul>
           <ul className="font-Roboto text-xl flex items-center hidden space-x-8 lg:flex">
             <li>
-              <a
-                href="/donate"
-                className="inline-flex items-center justify-center h-10 px-4 font-bold tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-400 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
-                aria-label="Donate"
-                title="Faire un Don"
-              >
-                Faire un Don
-              </a>
+              <Link href="/donate">
+                <a
+                  className="inline-flex items-center justify-center h-10 px-4 font-bold tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-400 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
+                  aria-label="Donate"
+                  title="Faire un Don"
+                >
+                  Faire un Don
+                </a>
+              </Link>
             </li>
           </ul>
           <div className="lg:hidden">
@@ -100,16 +106,17 @@ const Navbar = () => {
                 <div className="p-5 bg-white dark:bg-slate-700 dark:border-none border rounded shadow-sm">
                   <div className="flex items-center justify-between mb-4">
                     <div>
-                      <a
-                        href="/"
-                        aria-label="Vicim's Hope"
-                        title="Vicim's Hope"
-                        className="inline-flex items-center"
-                      >
-                        <span className="ml-2 text-lg font-bold tracking-wide text-gray-800 dark:text-white">
-                          Victim's Hope
-                        </span>
-                      </a>
+                      <Link href="/">
+                        <a
+                          aria-label="Vicim's Hope"
+                          title="Vicim's Hope"
+                          className="inline-flex items-center"
+                        >
+                          <span className="ml-2 text-lg font-bold tracking-wide text-gray-800 dark:text-white">
+                            Victim's Hope
+                          </span>
+                        </a>
+                      </Link>
                     </div>
                     <div>
                       <button
@@ -130,54 +137,59 @@ const Navbar = () => {
                   <nav>
                     <ul className="space-y-4 font-Roboto">
                       <li>
-                        <a
-                          href="/"
-                          aria-label="Accueil"
-                          title="Accueil"
-                          className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-purple-400"
-                        >
-                          Accueil
-                        </a>
+                        <Link href="/">
+                          <a
+                            aria-label="Accueil"
+                            title="Accueil"
+                            className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-purple-400"
+                          >
+                            Accueil
+                          </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="/domaines"
-                          aria-label="Domaines d'Intervention"
-                          title="Domaines d'Intervention"
-                          className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-purple-400"
-                        >
-                          Domaines d'Intervention
-                        </a>
+                        <Link href="/domaines">
+                          <a
+                            aria-label="Domaines d'Intervention"
+                            title="Domaines d'Intervention"
+                            className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-purple-400"
+                          >
+                            Domaines d'Intervention
+                          </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="/realisations"
-                          aria-label="Réalisations"
-                          title="Réalisations"
-                          className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-purple-400"
-                        >
-                          Réalisations
-                        </a>
+                        <Link href="/realisations">
+                          <a
+                            aria-label="Réalisations"
+                            title="Réalisations"
+                            className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-purple-400"
+                          >
+                            Réalisations
+                          </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="/contact"
-                          aria-label="Contact"
-                          title="Contact"
-                          className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-purple-400"
-                        >
-                          Contact
-                        </a>
+                        <Link href="/contact">
+                          <a
+                            aria-label="Contact"
+                            title="Contact"
+                            className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-purple-400"
+                          >
+                            Contact
+                          </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="/donate"
-                          className="inline-flex items-center justify-center w-full h-10 px-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-400 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
-                          aria-label="Sign up"
-                          title="Sign up"
-                        >
-                          Faire un Don
-                        </a>
+                        <Link href="/donate">
+                          <a
+                            className="inline-flex items-center justify-center w-full h-10 px-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-400 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
+                            aria-label="Sign up"
+                            title="Sign up"
+                          >
+                            Faire un Don
+                          </a>
+                        </Link>
                       </li>
                     </ul>
                   </nav>

@@ -64,7 +64,7 @@ const Rsi = () => {
               des données à distances via les Smartphones depuis l’apparition de 
               la pandémie COVID-19. 
               </p>
-              <p className="mt-6 font-Raleway text-slate-100 text-xl font-extrabold leading-none tracking-tight lg:text-3xl">
+              <p className="mt-6 font-Raleway text-slate-100 text-xl font-extrabold leading-none tracking-tight lg:text-2xl">
                 Publications Récentes
               </p>
               <div className="flex flex-col items-start my-6">
