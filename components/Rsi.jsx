@@ -64,9 +64,12 @@ const Rsi = () => {
               des données à distances via les Smartphones depuis l’apparition de 
               la pandémie COVID-19. 
               </p>
-              <div className="flex items-center my-6">
+              <p className="mt-6 font-Raleway text-slate-100 text-xl font-extrabold leading-none tracking-tight lg:text-3xl">
+                Publications Récentes
+              </p>
+              <div className="flex flex-col items-start my-6">
                 <a
-                  className="mr-6 inline-flex items-center font-semibold text-purple-400 transition-colors duration-200 hover:text-purple-700"
+                  className="mb-4 inline-flex items-center font-semibold text-purple-400 transition-colors duration-200 hover:text-purple-700"
                   href="/reports/report-english.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -74,12 +77,12 @@ const Rsi = () => {
                   <FontAwesomeIcon icon={faFilePdf} className="w-6 h-6 mr-4" /> VH-DRC_Final Report Baseline REDD+_NCA_23102021_English
                 </a>
                 <a
-                  className="mr-6 inline-flex items-center font-semibold text-purple-400 transition-colors duration-200 hover:text-purple-700"
+                  className="inline-flex items-center font-semibold text-purple-400 transition-colors duration-200 hover:text-purple-700"
                   href="/reports/report-french.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FontAwesomeIcon icon={faFilePdf} className="w-6 h-6" /> VH-DRC_Rapport Final-Baseline REDD+_NCA_23102021_Français
+                  <FontAwesomeIcon icon={faFilePdf} className="w-6 h-6 mr-4" /> VH-DRC_Rapport Final-Baseline REDD+_NCA_23102021_Français
                 </a>
               </div>
             </div>
