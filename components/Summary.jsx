@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const Summary = () => {
   return (
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -83,12 +85,14 @@ const Summary = () => {
         </div>
       </div>
       <div className="text-center">
-        <a
+        <Link
           href="/domaines"
-          className="inline-flex items-center justify-center w-full h-12 px-6 font-medium font-Roboto tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-purple-400 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
+          aria-label=""
         >
-          En Savoir Plus
-        </a>
+          <a className="inline-flex items-center justify-center w-full h-12 px-6 font-medium font-Roboto tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-purple-400 hover:bg-purple-700 focus:shadow-outline focus:outline-none">
+            En Savoir Plus
+          </a>
+        </Link>
       </div>
     </div>
   )
