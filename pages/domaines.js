@@ -12,6 +12,7 @@ const domaines = () => {
       <PageHeader 
         title="Domaines d'Intervention"
         description="Nous intervenons au profit des victimes de catastrophes par des interventions humanitaire et par la recherche"
+        bg="/images/domain-header.jpg"
       />
       <Humanitaire />
       <Rsi />
