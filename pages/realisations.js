@@ -1,4 +1,5 @@
 import ContainerBlock from "../components/ContainerBlock"
+import Interventions from "../components/Interventions"
 import PageHeader from "../components/PageHeader"
 
 const realisations = () => {
@@ -12,6 +13,7 @@ const realisations = () => {
         description="Au fil des ans, nous avons intervenus de différents manières à la création d'activités génératrices de revenus et à l'accompagnement des communautés locales"
         bg="/images/bg-realisations.JPG" 
       />
+      <Interventions />
     </ContainerBlock>
   )
 }
