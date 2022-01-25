@@ -1,4 +1,5 @@
 import ContainerBlock from "../components/ContainerBlock"
+import Evaluations from "../components/Evaluations"
 import Interventions from "../components/Interventions"
 import PageHeader from "../components/PageHeader"
 
@@ -14,6 +15,7 @@ const realisations = () => {
         bg="/images/bg-realisations.JPG" 
       />
       <Interventions />
+      <Evaluations />
     </ContainerBlock>
   )
 }

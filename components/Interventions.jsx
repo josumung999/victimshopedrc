@@ -38,7 +38,7 @@ const Interventions = () => {
         </div>
         <hr className="my-4 bg-slate-700 dark:bg-slate-300" />
         <div>
-        <h2 className="mb-14 font-Raleway text-2xl font-bold leading-none tracking-tight text-gray-900 dark:text-gray-300 sm:text-3xl md:mx-auto">
+        <h2 className="mt-8 mb-14 font-Raleway text-2xl font-bold leading-none tracking-tight text-gray-900 dark:text-gray-300 sm:text-3xl md:mx-auto">
           Interventions Humanitaires
         </h2>
         </div>
