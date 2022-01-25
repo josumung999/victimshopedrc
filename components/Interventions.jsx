@@ -36,27 +36,28 @@ const Interventions = () => {
             Projets Exécutés
           </h2>
         </div>
+        <hr className="my-4 bg-slate-700 dark:bg-slate-300" />
         <div>
-        <h2 className="mb-14 font-Raleway text-2xl font-bold leading-none tracking-tight text-gray-900 sm:text-3xl md:mx-auto">
+        <h2 className="mb-14 font-Raleway text-2xl font-bold leading-none tracking-tight text-gray-900 dark:text-gray-300 sm:text-3xl md:mx-auto">
           Interventions Humanitaires
         </h2>
         </div>
         <div className="grid gap-5 row-gap-5 mb-8 lg:grid-cols-3 sm:grid-cols-1">
-          <div className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2">
+          <div className="inline-block overflow-hidden duration-300 transform bg-white dark:bg-slate-700 rounded shadow-sm hover:-translate-y-2">
             <div className="flex flex-col h-full">
-            <Image
+              <Image
                 src="/images/kalehe-kasheke.jpg"
                 className="object-cover w-full h-48"
                 alt=""
                 width="600"
                 height="350"
               />
-              <div className="flex-grow border border-t-0 rounded-b">
+              <div className="flex-grow border dark:border-none border-t-0 rounded-b">
                 <div className="p-5">
-                  <h6 className="mb-2 font-semibold font-Raleway leading-5">
+                  <h6 className="mb-2 font-semibold font-Raleway text-gray-900 dark:text-gray-200 leading-5">
                     Encadrement de Jeunes Éleveurs
                   </h6>
-                  <p className="text-base font-Roboto text-gray-900">
+                  <p className="text-base font-Roboto text-gray-700 dark:text-gray-300">
                    Projet d’encadrement des jeunes éleveurs des petits bétails
                    dans les hauts plateaux de Kalehe, groupement de Mubugu, village 
                    Katasomwa. 
@@ -69,7 +70,7 @@ const Interventions = () => {
               </div>
             </div>
           </div>
-          <div className="inline-block overflow-hidden duration-350 transform bg-white rounded shadow-sm hover:-translate-y-2">
+          <div className="inline-block overflow-hidden duration-300 transform bg-white dark:bg-slate-700 rounded shadow-sm hover:-translate-y-2">
             <div className="flex flex-col h-full">
             <Image
                 src="/images/nyawera.jpg"
@@ -78,12 +79,12 @@ const Interventions = () => {
                 width="600"
                 height="350"
               />
-              <div className="flex-grow border border-t-0 rounded-b">
+              <div className="flex-grow border dark:border-none border-t-0 rounded-b">
                 <div className="p-5">
-                  <h6 className="mb-2 font-semibold font-Raleway leading-5">
+                  <h6 className="mb-2 font-semibold font-Raleway text-gray-900 dark:text-gray-200 leading-5">
                     BCECO LOANS
                   </h6>
-                  <p className="text-base font-Roboto text-gray-900">
+                  <p className="text-base font-Roboto text-gray-700 dark:text-gray-300">
                     Projet d’accompagnement des initiatives d’économie 
                     sociale et solidaire « IESS » dans les marchés de la ville 
                     de Bukavu.
@@ -96,7 +97,7 @@ const Interventions = () => {
               </div>
             </div>
           </div>
-          <div className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2">
+          <div className="inline-block overflow-hidden duration-300 transform bg-white dark:bg-slate-700 rounded shadow-sm hover:-translate-y-2">
             <div className="flex flex-col h-full">
               <Image
                 src="/images/eleve.jpg"
@@ -105,12 +106,12 @@ const Interventions = () => {
                 width="600"
                 height="350"
               />
-              <div className="flex-grow border border-t-0 rounded-b">
+              <div className="flex-grow border dark:border-none border-t-0 rounded-b">
                 <div className="p-5">
-                  <h6 className="mb-2 font-semibold font-Raleway leading-5">
+                  <h6 className="mb-2 font-semibold font-Raleway text-gray-900 dark:text-gray-200 leading-5">
                     PLUVIFES
                   </h6>
-                  <p className="text-base font-Roboto text-gray-900">
+                  <p className="text-base font-Roboto text-gray-700 dark:text-gray-300">
                   Projet de Lutte Contre les Violences faites à la Jeune 
                   fille dans les établissements scolaires de la ville de Bukavu  
                    <br />
