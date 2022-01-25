@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 const { faClock } = require("@fortawesome/free-solid-svg-icons")
 const { FontAwesomeIcon } = require("@fortawesome/react-fontawesome")
 
@@ -42,10 +44,12 @@ const Interventions = () => {
         <div className="grid gap-5 row-gap-5 mb-8 lg:grid-cols-3 sm:grid-cols-1">
           <div className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2">
             <div className="flex flex-col h-full">
-              <img
+            <Image
                 src="/images/kalehe-kasheke.jpg"
                 className="object-cover w-full h-48"
                 alt=""
+                width="600"
+                height="350"
               />
               <div className="flex-grow border border-t-0 rounded-b">
                 <div className="p-5">
@@ -65,12 +69,14 @@ const Interventions = () => {
               </div>
             </div>
           </div>
-          <div className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2">
+          <div className="inline-block overflow-hidden duration-350 transform bg-white rounded shadow-sm hover:-translate-y-2">
             <div className="flex flex-col h-full">
-              <img
+            <Image
                 src="/images/nyawera.jpg"
                 className="object-cover w-full h-48"
                 alt=""
+                width="600"
+                height="350"
               />
               <div className="flex-grow border border-t-0 rounded-b">
                 <div className="p-5">
@@ -92,10 +98,12 @@ const Interventions = () => {
           </div>
           <div className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2">
             <div className="flex flex-col h-full">
-              <img
+              <Image
                 src="/images/eleve.jpg"
                 className="object-cover w-full h-48"
                 alt=""
+                width="600"
+                height="350"
               />
               <div className="flex-grow border border-t-0 rounded-b">
                 <div className="p-5">
