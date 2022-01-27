@@ -186,10 +186,10 @@ const Evaluations = () => {
               </div>
             </div>
             <div>
-              <p className="text-xl font-semibold sm:text-base">
+              <p className="text-xl font-semibold font-Raleway text-gray-900 dark:text-gray-300 sm:text-base">
                 Sud-Kivu
               </p>
-              <p className="text-sm text-gray-700">
+              <p className="text-sm text-gray-700 font-Roboto dark:text-gray-400">
               Projets WASH et Sécurité Alimentaire 
               Programme SWIFTS2, TUENDELEE PAMOJA, UNICEF et BELGIUM; 
               (Proallience/ Tearfund). 
@@ -213,10 +213,10 @@ const Evaluations = () => {
               </div>
             </div>
             <div>
-              <p className="text-xl font-semibold sm:text-base">
+              <p className="text-xl font-semibold font-Raleway text-gray-900 dark:text-gray-300 sm:text-base">
                 Nord-Kivu
               </p>
-              <p className="text-sm text-gray-700">
+              <p className="text-sm text-gray-700 font-Roboto dark:text-gray-400">
               Projets WASH et Sécurité Alimentaire ‘Programme SWIFT1, 
               SWIFTS2, OFDA1, OFDA2, MAVUNO ; (Proallience/ Tearfund). 
               </p>
@@ -239,10 +239,10 @@ const Evaluations = () => {
               </div>
             </div>
             <div>
-              <p className="text-xl font-semibold sm:text-base">
+              <p className="text-xl font-semibold font-Raleway text-gray-900 dark:text-gray-300 sm:text-base">
                 Ituri
               </p>
-              <p className="text-sm text-gray-700">
+              <p className="text-sm text-gray-700 font-Roboto dark:text-gray-400">
               Projets WASH et Sécurité Alimentaire 
               ‘Programme OFDA2, MAVUNO et CERF ; (Proallience/ Tearfund). 
               </p>
@@ -266,8 +266,8 @@ const Evaluations = () => {
               </div>
             </div>
             <div>
-              <p className="text-xl font-semibold sm:text-base">Tanganyika</p>
-              <p className="text-sm text-gray-700">
+              <p className="text-xl font-semibold font-Raleway text-gray-900 dark:text-gray-300 sm:text-base">Tanganyika</p>
+              <p className="text-sm text-gray-700 font-Roboto dark:text-gray-400">
                 Projets WASH et Sécurité Alimentaire ‘Programme SWIFT1, 
                 SWIFTS2, OFDA1, OFDA2’ ; (Proallience/ Tearfund).
               </p>
@@ -291,8 +291,8 @@ const Evaluations = () => {
               </div>
             </div>
             <div>
-              <p className="text-xl font-semibold sm:text-base">Maniema</p>
-              <p className="text-sm text-gray-700">
+              <p className="text-xl font-semibold font-Raleway text-gray-900 dark:text-gray-300 sm:text-base">Maniema</p>
+              <p className="text-sm text-gray-700 font-Roboto dark:text-gray-400">
                 Projets WASH et Sécurité Alimentaire 
                 ‘Programme SWIFT1, SWIFTS2, OFDA1, OFDA2’ ; 
                 (Proallience/ Tearfund).  
