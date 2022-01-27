@@ -132,7 +132,7 @@ const Evaluations = () => {
         </h2>
       </div>
       <div className="max-w-screen-lg sm:mx-auto">
-        <div className="flex flex-col items-start py-4 transition duration-300 transform rounded sm:px-4 lg:flex-row sm:hover:translate-x-4 sm:hover:bg-blue-50">
+        <div className="flex flex-col items-start py-4 transition duration-300 transform rounded sm:px-4 lg:flex-row sm:hover:translate-x-4 sm:hover:bg-blue-50 dark:sm:hover:bg-slate-800">
           <div className="mb-4 lg:mb-0">
             <h5 className="mb-4 text-xl font-Raleway text-slate-900 dark:text-slate-200 font-bold leading-none sm:text-2xl">
               Sud–Kivu
@@ -149,7 +149,7 @@ const Evaluations = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-start py-4 transition duration-300 transform rounded sm:px-4 lg:flex-row sm:hover:translate-x-4 sm:hover:bg-blue-50">
+        <div className="flex flex-col items-start py-4 transition duration-300 transform rounded sm:px-4 lg:flex-row sm:hover:translate-x-4 sm:hover:bg-blue-50 dark:sm:hover:bg-slate-800">
           <div className="mb-4 lg:mb-0">
             <h5 className="mb-4 text-xl font-Raleway text-slate-900 dark:text-slate-200 font-bold leading-none sm:text-2xl">
               Sud-Kivu et Ituri
