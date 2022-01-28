@@ -2,6 +2,7 @@ import ContainerBlock from "../components/ContainerBlock"
 import Evaluations from "../components/Evaluations"
 import Interventions from "../components/Interventions"
 import PageHeader from "../components/PageHeader"
+import Partners from "../components/Partners"
 
 const realisations = () => {
   return (
@@ -16,6 +17,7 @@ const realisations = () => {
       />
       <Interventions />
       <Evaluations />
+      <Partners />
     </ContainerBlock>
   )
 }
