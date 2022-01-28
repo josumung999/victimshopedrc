@@ -182,7 +182,7 @@ const Evaluations = () => {
             </div>
             <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
               <div className="sm:mr-5">
-                <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+                <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 dark:bg-slate-800 sm:w-24 sm:h-24">
                   <FontAwesomeIcon icon={faMapMarkerAlt} className="w-12 h-12 text-purple-400 sm:w-14 sm:h-14" />
                 </div>
               </div>
@@ -209,7 +209,7 @@ const Evaluations = () => {
             </div>
             <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
               <div className="sm:mr-5">
-                <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+                <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 dark:bg-slate-800 sm:w-24 sm:h-24">
                   <FontAwesomeIcon icon={faMapMarkerAlt} className="w-12 h-12 text-purple-400 sm:w-14 sm:h-14" />
                 </div>
               </div>
@@ -235,7 +235,7 @@ const Evaluations = () => {
             </div>
             <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
               <div className="sm:mr-5">
-                <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+                <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 dark:bg-slate-800 sm:w-24 sm:h-24">
                   <FontAwesomeIcon icon={faMapMarkerAlt} className="w-12 h-12 text-purple-400 sm:w-14 sm:h-14" />
                 </div>
               </div>
@@ -262,7 +262,7 @@ const Evaluations = () => {
             </div>
             <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
               <div className="sm:mr-5">
-                <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+                <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 dark:bg-slate-800 sm:w-24 sm:h-24">
                   <FontAwesomeIcon icon={faMapMarkerAlt} className="w-12 h-12 text-purple-400 sm:w-14 sm:h-14" />
                 </div>
               </div>
@@ -287,7 +287,7 @@ const Evaluations = () => {
             </div>
             <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
               <div className="sm:mr-5">
-                <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+                <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 dark:bg-slate-800 sm:w-24 sm:h-24">
                   <FontAwesomeIcon icon={faMapMarkerAlt} className="w-12 h-12 text-purple-400 sm:w-14 sm:h-14" />
                 </div>
               </div>
