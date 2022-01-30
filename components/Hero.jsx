@@ -23,7 +23,7 @@ const Hero = () => {
             <p className="inline-block px-3 py-px mb-4 text-xs font-semibold font-Roboto tracking-wider text-teal-900 uppercase rounded-full bg-teal-400 dark:bg-transparent dark:text-teal-400 lg:animate-bounce">
               Victim's Hope DRC
             </p>
-            <h2 className="mb-5 text-3xl sm:text-4xl font-black font-Raleway font-bold tracking-tight text-gray-900 dark:text-gray-200 sm:leading-none">
+            <h2 className="mb-5 text-3xl sm:text-4xl font-black font-Raleway tracking-tight text-gray-900 dark:text-gray-200 sm:leading-none">
               Pour une Société {' '}
               <br className="hidden md:block" />
               Juste et{' '}

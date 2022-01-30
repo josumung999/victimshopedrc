@@ -43,7 +43,7 @@ export const CarouselItem = styled.div`
   
   @media screen and (max-width: 640px) {
     margin-left: 32px;
-    min-width: 120px;
+    min-width: 150px;
     padding: 4px;
     align-content: start;
     scroll-snap-align: start;
