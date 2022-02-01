@@ -1,3 +1,4 @@
+import Contact from "../components/Contact"
 import ContainerBlock from "../components/ContainerBlock"
 import PageHeader from "../components/PageHeader"
 
@@ -12,6 +13,7 @@ const contact = () => {
         description="Rejoignez notre communauté aujourd'hui, laissez nous un message et nous serions ravis de vous répondre"
         bg="/images/bg-contact.jpeg"
       />
+      <Contact />
     </ContainerBlock>
   )
 }
