@@ -38,6 +38,10 @@ const data = {
       id: 9,
       logo: '/images/partners/war-child.png',
     },
+    {
+      id: 10,
+      logo: '/images/partners/care.png',
+    },
   ]
 } 
 
