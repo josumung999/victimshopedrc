@@ -18,8 +18,8 @@ const Footer = () => {
             </a>
             <div className="mt-6 lg:max-w-sm">
               <p className="text-sm font-Roboto text-gray-800 dark:text-gray-300">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam.
+                Promouvoir les Droits Humains à travers une assistance opportune et efficace à l’endroit des victimes 
+                vulnérabilisées par différentes crises de nature humaines et naturelles dans le contexte fragile. 
               </p>
             </div>
           </div>
@@ -28,21 +28,30 @@ const Footer = () => {
               Contacts
             </p>
             <div className="flex font-Roboto" >
-              <p className="mr-1 text-base text-gray-800 dark:text-gray-300">Phone:</p>
+              <p className="mr-1 text-base text-gray-800 dark:text-gray-300">Office 1:</p>
               <a
-                href="tel:+243991234567"
+                href="tel:+24399094448"
                 className="transition-colors duration-300 text-purple-400 hover:text-purple-800"
               >
-                +243 991 234 567
+                +243 990 094 448
+              </a>
+            </div>
+            <div className="flex font-Roboto" >
+              <p className="mr-1 text-base text-gray-800 dark:text-gray-300">Office 2:</p>
+              <a
+                href="tel:+243826163250"
+                className="transition-colors duration-300 text-purple-400 hover:text-purple-800"
+              >
+                +243 826 163 250
               </a>
             </div>
             <div className="flex font-Roboto" >
               <p className="mr-1 text-gray-800 dark:text-gray-300">Email:</p>
               <a
-                href="mailto:info@victimshopedrc.org"
+                href="mailto:victimeshope2004@gmail.com"
                 className="transition-colors duration-300 text-purple-400 hover:text-purple-800"
               >
-                info@victimshopedrc.org
+                victimeshope2004@gmail.com
               </a>
             </div>
             <div className="flex font-Roboto" >
@@ -55,7 +64,7 @@ const Footer = () => {
                 title="Our address"
                 className="transition-colors duration-300 text-purple-400 hover:text-purple-800"
               >
-                Av. P.E Lumumba, Bukavu, RD Congo
+                Av. Michombero, Commune de Bagira, Bukavu, Sud-Kivu, RD Congo
               </a>
             </div>
           </div>
@@ -91,8 +100,7 @@ const Footer = () => {
               </a>
             </div>
             <p className="mt-4 text-sm font-Roboto text-gray-500 dark:text-gray-400">
-              Bacon ipsum dolor amet short ribs pig sausage prosciutto chicken
-              spare ribs salami.
+              Victime non vulnérabilisée pour un développement communautaire 
             </p>
           </div>
         </div>
