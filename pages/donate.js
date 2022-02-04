@@ -1,4 +1,5 @@
 import ContainerBlock from "../components/ContainerBlock"
+import Donation from "../components/Donation"
 import PageHeader from "../components/PageHeader"
 
 const donate = () => {
@@ -12,6 +13,7 @@ const donate = () => {
         description="Étant une organisation à but non lucratif, nous apportons notre soutiens à victimes grâce au soutien de la communauté internationale, Rejoignez notre cause en soutenant nos différents projets"
         bg='/images/bg-donation.jpg'
       />
+      <Donation />
     </ContainerBlock>
   )
 }
