@@ -9,7 +9,9 @@ const ContainerBlock = ({ children, ...customMeta }) => {
   const meta = {
     title: "Victim's Hope - Une Organisation de Droit Congolais",
     description: "Victim's Hope est une association ayant pour but de ...",
+    favicon: "/static/logo.png",
     ...customMeta
+
   };
 
   return (
@@ -18,6 +20,7 @@ const ContainerBlock = ({ children, ...customMeta }) => {
         <title>
           {meta.title}
         </title>
+        <link rel="shortcut icon" href="/static/logo.png" />
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
         <meta

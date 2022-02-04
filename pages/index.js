@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <ContainerBlock
       title="Victim's Hope - Organisation de droit congolais"
-      description="Lorem Ipsum"
+      description="Victim's Hope DRC vise à Promouvoir les Droits Humains à travers une assistance opportune et efficace à l’endroit des victimes vulnérabilisées par différentes crises de nature humaines et naturelles dans le contexte fragile"
     >
       <Hero />
       <Mission />
