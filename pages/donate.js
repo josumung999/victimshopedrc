@@ -10,7 +10,7 @@ const donate = () => {
     >
       <PageHeader
         title="Faire un Don"
-        description="Étant une organisation à but non lucratif, nous apportons notre soutiens à victimes grâce au soutien de la communauté internationale, Rejoignez notre cause en soutenant nos différents projets"
+        description="Étant une organisation à but non lucratif, nous apportons notre soutien aux victimes grâce au soutien de la communauté internationale, du Gouvernement, des cotisations des memebres et appuis des personnes de de bonne volonté. Rejoignez notre cause en soutenant nos différents projets"
         bg='/images/bg-donation.jpg'
       />
       <Donation />
