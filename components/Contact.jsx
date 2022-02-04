@@ -1,4 +1,4 @@
-import { faFacebook, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons"
+import { faFacebook, faLinkedin, faTwitter, faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 
 const { faPhoneAlt, faEnvelope, faMapMarkerAlt } = require("@fortawesome/free-solid-svg-icons")
 const { FontAwesomeIcon } = require("@fortawesome/react-fontawesome")
@@ -17,19 +17,25 @@ const Contact = (props) => {
               <div className="inline-flex items-center mb-4">
                 <FontAwesomeIcon icon={faPhoneAlt} className="text-gray-100 dark:text-gray-300 mr-4 w-6 h-6" />
                 <span className="text-base text-gray-100 dark:text-gray-300">
-                  +243 991 234 567
+                  +243 990 094 448
+                </span>
+              </div>
+              <div className="inline-flex items-center mb-4">
+                <FontAwesomeIcon icon={faWhatsapp} className="text-gray-100 dark:text-gray-300 mr-4 w-6 h-6" />
+                <span className="text-base text-gray-100 dark:text-gray-300">
+                  +243 826 163 250
                 </span>
               </div>
               <div className="inline-flex items-center mb-4">
                 <FontAwesomeIcon icon={faEnvelope} className="text-gray-100 dark:text-gray-300 mr-4 w-6 h-6" />
                 <span className="text-base text-gray-100 dark:text-gray-300">
-                  contact@victimshopedrc.org
+                  victimeshope2004@gmail.com
                 </span>
               </div>
               <div className="inline-flex items-center mb-4">
                 <FontAwesomeIcon icon={faMapMarkerAlt} className="text-gray-100 dark:text-gray-300 mr-4 w-6 h-6" />
                 <span className="text-base text-gray-100 dark:text-gray-300">
-                  N°342 Avenue PE Lumumba, Bukavu, RD Congo
+                  Av. Michombero, Commune de Bagira, Bukavu, Sud-Kivu, RD Congo
                 </span>
               </div>
               <div className="py-6 px-16 inline-flex justify-between">
