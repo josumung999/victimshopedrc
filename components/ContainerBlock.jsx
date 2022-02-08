@@ -9,7 +9,7 @@ const ContainerBlock = ({ children, ...customMeta }) => {
   const meta = {
     title: "Victim's Hope - Une Organisation de Droit Congolais",
     description: "Victim's Hope est une association ayant pour but de ...",
-    favicon: "/static/favicon.ico",
+    favicon: "/favicon.ico",
     ...customMeta
 
   };
