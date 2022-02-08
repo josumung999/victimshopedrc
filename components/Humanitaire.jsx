@@ -51,7 +51,7 @@ const Humanitaire = () => {
             </div>
             <h6 className="mb-3 text-gray-800 dark:text-gray-200 text-xl font-Raleway font-bold leading-5">Sécurité Alimentaire</h6>
             <p className="mb-3 font-Roboto text-base text-gray-800 dark:text-gray-300">
-              Soutenir les agriculteurs et les éléveurs tout en intervenant dans la protection de l'environnement ainsi que la résilience
+              Soutenir les agriculteurs et les éléveurs tout en intervenant dans la protection de l&apos;environnement ainsi que la résilience
             </p>
           </div>
           <div className="max-w-md sm:mx-auto sm:text-center">
@@ -60,7 +60,7 @@ const Humanitaire = () => {
             </div>
             <h6 className="mb-3 text-gray-800 dark:text-gray-200 text-xl font-Raleway font-bold leading-5">Wash, Santé et Nutrition</h6>
             <p className="mb-3 font-Roboto text-base text-gray-800 dark:text-gray-300">
-            Adduction d'eau potable, hygiène et assainissement 
+            Adduction d&apos;eau potable, hygiène et assainissement 
               et communication pour le changement de mentalité
             </p>
           </div>
@@ -71,7 +71,7 @@ const Humanitaire = () => {
             <h6 className="mb-3 text-gray-800 dark:text-gray-200 text-xl font-Raleway font-bold leading-5">Genre, Inclusion et Jeunesse</h6>
             <p className="mb-3 font-Roboto text-base text-gray-800 dark:text-gray-300">
             Entrepreneuriat, soutien aux victimes de violences 
-              sexuelles et création d'activités génératrices de revenus.
+              sexuelles et création d&apos;activités génératrices de revenus.
             </p>
           </div>
           <div className="max-w-md sm:mx-auto sm:text-center">
@@ -80,7 +80,7 @@ const Humanitaire = () => {
             </div>
             <h6 className="mb-3 text-gray-800 dark:text-gray-200 text-xl font-Raleway font-bold leading-5">Éducation</h6>
             <p className="mb-3 font-Roboto text-base text-gray-800 dark:text-gray-300">
-            Promouvoir l'accès à l'éducation formelle et la formation
+            Promouvoir l&apos;accès à l&apos;éducation formelle et la formation
                aux métiers pratiques de la vie quotidienne.
             </p>
           </div>
