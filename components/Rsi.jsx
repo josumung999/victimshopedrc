@@ -13,7 +13,7 @@ const Rsi = () => {
               Recherche et Développement
             </p>
             <div className="mb-3">
-              <a
+              <Link
                 href="/"
                 aria-label="Article"
                 className="inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -21,11 +21,11 @@ const Rsi = () => {
                 <p className="font-Raleway text-2xl font-extrabold text-slate-100 leading-none tracking-tight lg:text-4xl xl:text-5xl">
                   Research for Social Impact
                 </p>
-              </a>
+              </Link>
             </div>
             <p className="mb-4 font-Roboto text-xl text-gray-300 md:text-lg">
-              Victim’s Hope DRC, détient d’une équipe performante, multidisciplinaire 
-              et ayant une aisance dans la conduite <strong className="text-purple-400"> des études qualitatives</strong> à l’aide de 
+              Victim&apos;s Hope DRC, détient d&apos;une équipe performante, multidisciplinaire 
+              et ayant une aisance dans la conduite <strong className="text-purple-400"> des études qualitatives</strong> à l&apos;aide de 
               techniques telles que Focus Group (FGD), Entretiens individuels en profondeur(KII), 
               Brainstorming, Consumer Immersion et ethnographies , <strong className="text-purple-400">études quantitatives</strong> grâce à des 
               techniques comme Entretien Face à Face avec papier (PAPI), Entretien par téléphone 
@@ -50,18 +50,18 @@ const Rsi = () => {
                 </a>
               </div>
               <p className="mb-4 text-base text-gray-300 md:text-lg">
-                Nous Procédons également à <strong className="text-purple-400"> des études documentaires</strong> à l’aide des 
-                archives, des publications officielles, de l’internet ou des experts. 
-                Ceci afin d’explorer une problématique ou de préparer une phase d’étude approfondie, 
+                Nous Procédons également à <strong className="text-purple-400"> des études documentaires</strong> à l&apos;aide des 
+                archives, des publications officielles, de l&apos;internet ou des experts. 
+                Ceci afin d&apos;explorer une problématique ou de préparer une phase d&apos;étude approfondie, 
                 ainsi que les séances de <strong className="text-purple-400"> Renforcement des capacités techniques</strong> au travers des Formations 
-                spécialisées (Suivi évaluation, Collecte numérique, Logiciels d’analyse qualitative et 
-                quantitative, Cartographie, Méthodes de recherche …), et l’organisation de conférences et colloques.   
+                spécialisées (Suivi évaluation, Collecte numérique, Logiciels d&apos;analyse qualitative et 
+                quantitative, Cartographie, Méthodes de recherche …), et l&apos;organisation de conférences et colloques.   
               </p>
               <p className="mt-4 text-base text-gray-300 md:text-lg">
               Avec son expertise dans la collecte des données numériques, 
               à travers les plateformes KOBO collect, ODK collect et Commcare, 
-              Victim’s Hope DRC a développé une nouvelle technique de collecte 
-              des données à distances via les Smartphones depuis l’apparition de 
+              Victim&apos;s Hope DRC a développé une nouvelle technique de collecte 
+              des données à distances via les Smartphones depuis l&apos;apparition de 
               la pandémie COVID-19. 
               </p>
               <p className="mt-6 font-Raleway text-slate-100 text-xl font-extrabold leading-none tracking-tight lg:text-2xl">
