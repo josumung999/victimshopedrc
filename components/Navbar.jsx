@@ -18,7 +18,7 @@ const Navbar = () => {
             >
               <Image src="/logo.png" width="42" height="42" alt="Victim's Hope Logo" />
               <span className="ml-2 text-1xl font-bold tracking-wide text-gray-100">
-                Victim's Hope
+                Victim&apos;s Hope
               </span>
             </a>
           </Link>
@@ -41,7 +41,7 @@ const Navbar = () => {
                   title="Domaines d'Intervention"
                   className="text-xl tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
                 >
-                  Domaines d'Intervention
+                  Domaines d&apos;Intervention
                 </a>
               </Link>
             </li>
@@ -115,7 +115,7 @@ const Navbar = () => {
                           className="inline-flex items-center"
                         >
                           <span className="ml-2 text-lg font-bold tracking-wide text-gray-800 dark:text-white">
-                            Victim's Hope
+                            Victim&apos;s Hope
                           </span>
                         </a>
                       </Link>
@@ -156,7 +156,7 @@ const Navbar = () => {
                             title="Domaines d'Intervention"
                             className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-purple-400"
                           >
-                            Domaines d'Intervention
+                            Domaines d&apos;Intervention
                           </a>
                         </Link>
                       </li>
