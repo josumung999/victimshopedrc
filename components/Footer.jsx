@@ -24,7 +24,7 @@ const Footer = () => {
             </Link>
             <div className="mt-6 lg:max-w-sm">
               <p className="text-sm font-Roboto text-gray-800 dark:text-gray-300">
-                Promouvoir les Droits Humains à travers une assistance opportune et efficace à l’endroit des victimes 
+                Promouvoir les Droits Humains à travers une assistance opportune et efficace à l&apos;endroit des victimes 
                 vulnérabilisées par différentes crises de nature humaines et naturelles dans le contexte fragile. 
               </p>
             </div>
