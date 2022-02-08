@@ -1,3 +1,5 @@
+import Image from 'next/image';
+import Link from 'next/link';
 import data from '../constants/data';
 
 const Footer = () => {
@@ -6,16 +8,19 @@ const Footer = () => {
       <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
           <div className="sm:col-span-2">
-            <a
+            <Link
               href="/"
               aria-label="Go home"
               title="Victim's Hope DRC"
               className="inline-flex items-center"
             >
-              <span className="ml-2 text-1xl sm:text-2xl font-bold font-Dongle tracking-wide text-gray-800 dark:text-gray-200 uppercase">
-                Victim's Hope DRC
-              </span>
-            </a>
+              <div className="flex flex-col justify-center items-start">
+                <Image src="/logo.png" width="150" height="150" alt="Victim's Hope Logo" />
+                <span className="ml-2 text-1xl sm:text-2xl font-bold font-Dongle tracking-wide text-gray-800 dark:text-gray-200 uppercase">
+                  Victim's Hope DRC
+                </span>
+              </div>
+            </Link>
             <div className="mt-6 lg:max-w-sm">
               <p className="text-sm font-Roboto text-gray-800 dark:text-gray-300">
                 Promouvoir les Droits Humains à travers une assistance opportune et efficace à l’endroit des victimes 
