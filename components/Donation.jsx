@@ -25,7 +25,7 @@ const Donation = () => {
             Notre Cause
           </h2>
           <p className="text-base text-gray-700 dark:text-gray-400 md:text-lg">
-            Victim's Hope DRC vise à contribuer à une société juste et équitable et 
+            Victim&apos;s Hope DRC vise à contribuer à une société juste et équitable et 
             croit en une victime non vulnérabilisée pour le développement communautaire
           </p>
         </div>
