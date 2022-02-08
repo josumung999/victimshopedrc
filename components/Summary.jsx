@@ -6,7 +6,7 @@ const Summary = () => {
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
           <p className="inline-block px-3 py-px mb-4 text-xs font-Roboto font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-400">
-            Domaines d'Intervention
+            Domaines d&apos;Intervention
           </p>
         </div>
         <h2 className="max-w-lg mb-6 font-Raleway text-2xl font-bold font-black leading-normal tracking-tight text-gray-900 dark:text-gray-200 sm:text-3xl md:mx-auto">
@@ -38,10 +38,10 @@ const Summary = () => {
           Intervenons dans les domaines suivants
         </h2>
         <p className="text-base font-Roboto text-gray-700 dark:text-gray-300 md:text-lg">
-          Dans le contexte de l’Est de la RDC, étant non seulement en proie à l'insécurité 
+          Dans le contexte de l&apos;Est de la RDC, étant non seulement en proie à l&apos;insécurité 
           caractérisé par des mouvements à répétition des populations mais aussi, 
           théoriquement riche mais pratiquement pauvre, lors de la crise la population 
-          abandonne tout et se trouve dans des situations très difficiles dans les zones d’accueil
+          abandonne tout et se trouve dans des situations très difficiles dans les zones d&apos;accueil
         </p>
       </div>
       <div className="grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2">
@@ -50,7 +50,7 @@ const Summary = () => {
             <h6 className="mb-2 font-semibold font-Raleway dark:text-gray-200 leading-5">Sécurité Alimentaire</h6>
             <p className="text-sm text-gray-900 dark:text-gray-300">
               Soutenir les agriculteurs et les éléveurs tout en intervenant dans la 
-              protection de l'environnement ainsi que la résilience
+              protection de l&apos;environnement ainsi que la résilience
             </p>
           </div>
         </div>
@@ -58,7 +58,7 @@ const Summary = () => {
           <div className="h-full p-5 border dark:border-none border-l-0 rounded-r shadow-sm">
             <h6 className="mb-2 font-semibold font-Raleway dark:text-gray-200 leading-5">Wash, Santé et Nutrition</h6>
             <p className="text-sm text-gray-900 dark:text-gray-300">
-              Adduction d'eau potable, hygiène et assainissement 
+              Adduction d&apos;eau potable, hygiène et assainissement 
               et communication pour le changement de mentalité
             </p>
           </div>
@@ -70,7 +70,7 @@ const Summary = () => {
             </h6>
             <p className="text-sm text-gray-900 dark:text-gray-300">
               Entrepreneuriat, soutien aux victimes de violences 
-              sexuelles et création d'activités génératrices de revenus.
+              sexuelles et création d&apos;activités génératrices de revenus.
             </p>
           </div>
         </div>
@@ -78,7 +78,7 @@ const Summary = () => {
           <div className="h-full p-5 border dark:border-none border-l-0 rounded-r shadow-sm">
             <h6 className="mb-2 font-semibold font-Raleway dark:text-gray-200 leading-5">Éducation</h6>
             <p className="text-sm text-gray-900 dark:text-gray-300">
-              Promouvoir l'accès à l'éducation formelle et la formation
+              Promouvoir l&apos;accès à l&apos;éducation formelle et la formation
                aux métiers pratiques de la vie quotidienne.
             </p>
           </div>
