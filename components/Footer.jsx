@@ -18,7 +18,7 @@ const Footer = () => {
               <div className="flex flex-col justify-center items-start">
                 <Image src="/logo.png" width="150" height="150" alt="Victim's Hope Logo" />
                 <span className="ml-2 text-1xl sm:text-2xl font-bold font-Dongle tracking-wide text-gray-800 dark:text-gray-200 uppercase">
-                  Victim's Hope DRC
+                  Victim&apos;s Hope DRC
                 </span>
               </div>
             </Link>
