@@ -22,7 +22,7 @@ const Mission = () => {
             </h2>
             <p className="text-base font-Roboto font-normal text-gray-700 dark:text-gray-300 md:text-lg">
               Nous avons comme mission de Promouvoir les Droits Humains à travers une assistance 
-              opportune et efficace à l’endroit des victimes vulnérabilisées 
+              opportune et efficace à l&apos;endroit des victimes vulnérabilisées 
               par différentes crises de nature humaines et naturelles dans le 
               contexte fragile.
             </p>
@@ -33,7 +33,7 @@ const Mission = () => {
               aria-label=""
             >
               <a className="inline-flex items-center font-semibold font-Raleway transition-colors duration-200 text-purple-400 hover:text-purple-800">
-                Domaines d'Intervention
+                Domaines d&apos;Intervention
                 <svg
                   className="inline-block w-3 ml-2"
                   fill="currentColor"
