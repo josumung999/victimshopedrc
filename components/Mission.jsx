@@ -64,6 +64,7 @@ const Mission = () => {
             <img
               className="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
               src="/images/img-mission-3.jpg"
+              alt="Notre Mission"
             />
           </div>
         </div>
