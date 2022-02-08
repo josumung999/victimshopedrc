@@ -17,6 +17,7 @@ const Rsi = () => {
                 href="/"
                 aria-label="Article"
                 className="inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
+                passHref
               >
                 <p className="font-Raleway text-2xl font-extrabold text-slate-100 leading-none tracking-tight lg:text-4xl xl:text-5xl">
                   Research for Social Impact
@@ -39,15 +40,13 @@ const Rsi = () => {
                 Les Autres Procedés
               </p>
               <div className="mb-3">
-                <a
-                  href="/"
-                  aria-label="Article"
+                <span
                   className="inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
                 >
                   <p className="font-Raleway text-slate-100 text-1xl font-extrabold leading-none tracking-tight lg:text-3xl">
                     Études Documentaires
                   </p>
-                </a>
+                </span>
               </div>
               <p className="mb-4 text-base text-gray-300 md:text-lg">
                 Nous Procédons également à <strong className="text-purple-400"> des études documentaires</strong> à l&apos;aide des 
