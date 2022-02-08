@@ -1,5 +1,6 @@
 import { faBars, faGift, faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react"
 
@@ -15,6 +16,7 @@ const Navbar = () => {
               title="Company"
               className="inline-flex items-center"
             >
+              <Image src="/logo.png" width="42" height="42" alt="Victim's Hope Logo" />
               <span className="ml-2 text-1xl font-bold tracking-wide text-gray-100">
                 Victim's Hope
               </span>
