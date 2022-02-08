@@ -63,7 +63,7 @@ const Donation = () => {
                   <div className="mr-3">
                     <FontAwesomeIcon icon={faUserAlt} className="w-4 h-4 text-teal-400" />
                   </div>
-                  <p className="font-medium text-gray-300">Intitulé du Compte: <strong>Victim's Hope</strong></p>
+                  <p className="font-medium text-gray-300">Intitulé du Compte: <strong>Victim&apos;s Hope</strong></p>
                 </li>
                 <li className="flex items-center">
                   <div className="mr-3">
@@ -84,7 +84,7 @@ const Donation = () => {
                   <p className="font-medium text-gray-300">Devise: <strong>USD</strong></p>
                 </li>
               </ul>
-              <Link href="/realisations">
+              <Link href="/realisations" passHref>
                 <button type="submit" className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-400 hover:bg-purple-700 focus:shadow-outline focus:outline-none">
                   Nos Réalisations
                 </button>
@@ -130,7 +130,7 @@ const Donation = () => {
                   <p className="font-medium text-gray-300">Autres Soutiens</p>
                 </li>
               </ul>
-              <Link href="/contact">
+              <Link href="/contact" passHref>
                 <button type="submit" className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-400 hover:bg-purple-700 focus:shadow-outline focus:outline-none">
                   Nous Contacter
                 </button>
