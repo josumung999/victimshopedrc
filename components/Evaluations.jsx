@@ -31,7 +31,7 @@ const Evaluations = () => {
               </div>
               <div className="pt-1 pb-8">
                 <p className="mb-2 text-lg dark:text-gray-400 font-Raleway font-bold">Sud-Kivu</p>
-                <p className="text-gray-700 dark:text-slate-200 font-Roboto">
+                <p className="text-gray-700 dark:text-slate-200 text-justify font-Roboto">
                   Projet de Réponse Rapide au Sud-Kivu 
                   (Caritas Belgique), Kivus Crisis for IDPs 
                   (Mercy Corps RDC),
@@ -49,7 +49,7 @@ const Evaluations = () => {
               </div>
               <div className="pt-1 pb-8">
                 <p className="mb-2 text-lg dark:text-gray-400 font-bold font-Raleway">Nord-Kivu</p>
-                <p className="text-gray-700 dark:text-slate-200 font-Roboto">
+                <p className="text-gray-700 dark:text-slate-200 text-justify font-Roboto">
                   Livelihood support to malnourished children and their families in the Mweso, 
                   Birambizo and Bambo health zones of Masisi and Rutshuru territories of North Kivu, DRC  
                   (LWF), Kivus Crisis for IDPs (Mercy Corps RDC)
@@ -67,7 +67,7 @@ const Evaluations = () => {
               </div>
               <div className="pt-1 pb-8">
                 <p className="mb-2 text-lg dark:text-gray-400 font-bold">Région de Kasaï (Kasaï et Kasaï central)</p>
-                <p className="text-gray-700 dark:text-slate-200 font-Roboto">
+                <p className="text-gray-700 dark:text-slate-200 text-justify font-Roboto">
                 Projet de Promotion des Outils Digitaux dans la 
                 Coordination Humanitaire dans la région des Kasaï, 
                 (Caritas Belgique) 
@@ -85,7 +85,7 @@ const Evaluations = () => {
               </div>
               <div className="pt-1 pb-8">
                 <p className="mb-2 text-lg dark:text-gray-400 font-bold">Sud-Kivu, Tanganyika, Kinshasa, Lubumbashi</p>
-                <p className="text-gray-700 dark:text-slate-200 font-Roboto">
+                <p className="text-gray-700 dark:text-slate-200 text-justify font-Roboto">
                 Gender-Responsive Radio Education in 
                 the DRC “IRI” ( War Child Canada)
                 </p>
@@ -139,7 +139,7 @@ const Evaluations = () => {
                 Sud–Kivu
               </h5>
               <div className="relative">
-                <p className="text-base text-gray-700 dark:text-gray-300 font-Roboto md:text-xl">
+                <p className="text-base text-gray-700 dark:text-gray-300 text-justify font-Roboto md:text-xl">
                   Analyse de l’Etat du Système humanitaire Cinquième Edition à 
                   l’Est de la RD Congo/ phase préliminaire/ALNAP (The Research People UK); 
                   Etude sur la sensibilité aux conflits intercommunautaires et la situation 
@@ -156,7 +156,7 @@ const Evaluations = () => {
                 Sud-Kivu et Ituri
               </h5>
               <div className="relative">
-                <p className="text-base text-gray-700 dark:text-gray-300 font-Roboto md:text-xl">
+                <p className="text-base text-gray-700 dark:text-gray-300 text-justify font-Roboto md:text-xl">
                 Évaluation Multisectorielle des besoins et étude du marché
                 ( CARE International)
                 </p>
@@ -190,7 +190,7 @@ const Evaluations = () => {
                 <p className="text-xl font-semibold font-Raleway text-gray-900 dark:text-gray-300 sm:text-base">
                   Sud-Kivu
                 </p>
-                <p className="text-sm text-gray-700 font-Roboto dark:text-gray-400">
+                <p className="text-sm text-gray-700 font-Roboto dark:text-gray-400 text-justify">
                 Projets WASH et Sécurité Alimentaire 
                 Programme SWIFTS2, TUENDELEE PAMOJA, UNICEF et BELGIUM; 
                 (Proallience/ Tearfund). 
@@ -217,7 +217,7 @@ const Evaluations = () => {
                 <p className="text-xl font-semibold font-Raleway text-gray-900 dark:text-gray-300 sm:text-base">
                   Nord-Kivu
                 </p>
-                <p className="text-sm text-gray-700 font-Roboto dark:text-gray-400">
+                <p className="text-sm text-gray-700 font-Roboto dark:text-gray-400 text-justify">
                 Projets WASH et Sécurité Alimentaire ‘Programme SWIFT1, 
                 SWIFTS2, OFDA1, OFDA2, MAVUNO ; (Proallience/ Tearfund). 
                 </p>
@@ -243,7 +243,7 @@ const Evaluations = () => {
                 <p className="text-xl font-semibold font-Raleway text-gray-900 dark:text-gray-300 sm:text-base">
                   Ituri
                 </p>
-                <p className="text-sm text-gray-700 font-Roboto dark:text-gray-400">
+                <p className="text-sm text-gray-700 font-Roboto dark:text-gray-400 text-justify">
                 Projets WASH et Sécurité Alimentaire 
                 ‘Programme OFDA2, MAVUNO et CERF ; (Proallience/ Tearfund). 
                 </p>
@@ -268,7 +268,7 @@ const Evaluations = () => {
               </div>
               <div>
                 <p className="text-xl font-semibold font-Raleway text-gray-900 dark:text-gray-300 sm:text-base">Tanganyika</p>
-                <p className="text-sm text-gray-700 font-Roboto dark:text-gray-400">
+                <p className="text-sm text-gray-700 font-Roboto dark:text-gray-400 text-justify">
                   Projets WASH et Sécurité Alimentaire ‘Programme SWIFT1, 
                   SWIFTS2, OFDA1, OFDA2’ ; (Proallience/ Tearfund).
                 </p>
@@ -293,7 +293,7 @@ const Evaluations = () => {
               </div>
               <div>
                 <p className="text-xl font-semibold font-Raleway text-gray-900 dark:text-gray-300 sm:text-base">Maniema</p>
-                <p className="text-sm text-gray-700 font-Roboto dark:text-gray-400">
+                <p className="text-sm text-gray-700 font-Roboto dark:text-gray-400 text-justify">
                   Projets WASH et Sécurité Alimentaire 
                   ‘Programme SWIFT1, SWIFTS2, OFDA1, OFDA2’ ; 
                   (Proallience/ Tearfund).  
