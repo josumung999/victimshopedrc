@@ -57,7 +57,7 @@ const Donation = () => {
                   <div className="mr-3">
                     <FontAwesomeIcon icon={faUniversity} className="w-4 h-4 text-teal-400" />
                   </div>
-                  <p className="font-medium text-gray-300">Nom de la Banque: <strong></strong></p>
+                  <p className="font-medium text-gray-300">Nom de la Banque: <strong>Trust Merchant Bank SARL</strong></p>
                 </li>
                 <li className="flex items-center">
                   <div className="mr-3">
