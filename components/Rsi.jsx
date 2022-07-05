@@ -24,7 +24,7 @@ const Rsi = () => {
                 </p>
               </Link>
             </div>
-            <p className="mb-4 font-Roboto text-xl text-gray-300 md:text-lg">
+            <p className="mb-4 font-Roboto text-justify text-xl text-gray-300 md:text-lg">
               Victim&apos;s Hope DRC, détient d&apos;une équipe performante, multidisciplinaire 
               et ayant une aisance dans la conduite <strong className="text-purple-400"> des études qualitatives</strong> à l&apos;aide de 
               techniques telles que Focus Group (FGD), Entretiens individuels en profondeur(KII), 
@@ -48,7 +48,7 @@ const Rsi = () => {
                   </p>
                 </span>
               </div>
-              <p className="mb-4 text-base text-gray-300 md:text-lg">
+              <p className="mb-4 text-base text-justify text-gray-300 md:text-lg">
                 Nous Procédons également à <strong className="text-purple-400"> des études documentaires</strong> à l&apos;aide des 
                 archives, des publications officielles, de l&apos;internet ou des experts. 
                 Ceci afin d&apos;explorer une problématique ou de préparer une phase d&apos;étude approfondie, 
@@ -56,7 +56,7 @@ const Rsi = () => {
                 spécialisées (Suivi évaluation, Collecte numérique, Logiciels d&apos;analyse qualitative et 
                 quantitative, Cartographie, Méthodes de recherche …), et l&apos;organisation de conférences et colloques.   
               </p>
-              <p className="mt-4 text-base text-gray-300 md:text-lg">
+              <p className="mt-4 text-base text-justify text-gray-300 md:text-lg">
               Avec son expertise dans la collecte des données numériques, 
               à travers les plateformes KOBO collect, ODK collect et Commcare, 
               Victim&apos;s Hope DRC a développé une nouvelle technique de collecte 

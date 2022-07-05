@@ -10,7 +10,7 @@ const Summary = () => {
               Domaines d&apos;Intervention
             </p>
           </div>
-          <h2 className="max-w-lg mb-6 font-Raleway text-2xl font-bold font-black leading-normal tracking-tight text-gray-900 dark:text-gray-200 sm:text-3xl md:mx-auto">
+          <h2 className="max-w-lg mb-6 font-Raleway text-2xl font-black leading-normal tracking-tight text-gray-900 dark:text-gray-200 sm:text-3xl md:mx-auto">
             <span className="relative inline-block">
               <svg
                 viewBox="0 0 52 24"
