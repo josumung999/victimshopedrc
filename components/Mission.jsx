@@ -20,7 +20,7 @@ const Mission = () => {
                 notre Mission
               </span>
             </h2>
-            <p className="text-base font-Roboto font-normal text-gray-700 dark:text-gray-300 md:text-lg">
+            <p className="text-base text-justify font-Roboto font-normal text-gray-700 dark:text-gray-300 md:text-lg">
               Nous avons comme mission de Promouvoir les Droits Humains à travers une assistance 
               opportune et efficace à l&apos;endroit des victimes vulnérabilisées 
               par différentes crises de nature humaines et naturelles dans le 
