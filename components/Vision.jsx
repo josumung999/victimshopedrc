@@ -47,7 +47,7 @@ const Vision = () => {
             </Link>
           </div>
           <div className="lg:w-1/2">
-            <p className="text-base text-gray-700 dark:text-gray-300">
+            <p className="text-base text-justify text-gray-700 dark:text-gray-300">
             Victim’s Hope DRC joue un rôle significatif, 
             en venant en aide aux victimes des attrocités, elle leur
             offre le premier sourire après le moment difficile et contribue non seulement 
