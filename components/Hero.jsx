@@ -31,7 +31,7 @@ const Hero = () => {
                 Équitable
               </span>
             </h2>
-            <p className="pr-5 font-Roboto mb-5 text-xl font-medium text-gray-700 dark:text-gray-400 md:text-lg">
+            <p className="pr-5 font-Roboto mb-5 text-xl text-justify font-medium text-gray-700 dark:text-gray-400 md:text-lg">
               Victim&apos;s Hope DRC (VH-DRC), une organisation des droits congolais est basée à Bukavu,
                et vise à contribuer à une société juste et équitable.
                 En plus des interventions humanitaires d’urgence et de développement, 
