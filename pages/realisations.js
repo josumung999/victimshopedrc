@@ -12,7 +12,7 @@ const realisations = () => {
     >
       <PageHeader
         title="Réalisations et Projets" 
-        description="Au fil des ans, nous avons intervenus de différents manières à la création d'activités génératrices de revenus et à l'accompagnement des communautés locales"
+        description="Au fil des ans, nous intervenons de différentes manières à travers nos différents projets, la promotion des droits humains et l'accompagnement des communautés locales pour leur auto prise en charge."
         bg="/images/bg-realisations.JPG" 
       />
       <Interventions />
