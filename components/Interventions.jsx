@@ -57,12 +57,12 @@ const Interventions = () => {
                   <h6 className="mb-2 font-semibold font-Raleway text-gray-900 dark:text-gray-200 leading-5">
                     Encadrement de Jeunes Éleveurs
                   </h6>
-                  <p className="text-base font-Roboto text-gray-700 dark:text-gray-300">
+                  <p className="text-base text-justify font-Roboto text-gray-700 dark:text-gray-300">
                    Projet d’encadrement des jeunes éleveurs des petits bétails
                    dans les hauts plateaux de Kalehe, groupement de Mubugu, village 
                    Katasomwa. 
                    <br />
-                   <span className="flex items-center mt-2">
+                   <span className="flex items-center mt-4">
                     <FontAwesomeIcon icon={faClock} className="w-4 h-4 mr-2 text-purple-400" />  <em>D’avril en Octobre 2016.</em>
                    </span>
                   </p>
@@ -84,12 +84,12 @@ const Interventions = () => {
                   <h6 className="mb-2 font-semibold font-Raleway text-gray-900 dark:text-gray-200 leading-5">
                     BCECO LOANS
                   </h6>
-                  <p className="text-base font-Roboto text-gray-700 dark:text-gray-300">
+                  <p className="text-base text-justify font-Roboto text-gray-700 dark:text-gray-300">
                     Projet d’accompagnement des initiatives d’économie 
                     sociale et solidaire « IESS » dans les marchés de la ville 
                     de Bukavu.
                     <br />
-                    <span className="flex items-center mt-2">
+                    <span className="flex items-center mt-4">
                       <FontAwesomeIcon icon={faClock} className="w-4 h-4 mr-2 text-purple-400" />  <em>Avril 2015 à Avril 2016.</em>
                     </span>
                   </p>
@@ -111,11 +111,11 @@ const Interventions = () => {
                   <h6 className="mb-2 font-semibold font-Raleway text-gray-900 dark:text-gray-200 leading-5">
                     PLUVIFES
                   </h6>
-                  <p className="text-base font-Roboto text-gray-700 dark:text-gray-300">
+                  <p className="text-base text-justify font-Roboto text-gray-700 dark:text-gray-300">
                   Projet de Lutte Contre les Violences faites à la Jeune 
                   fille dans les établissements scolaires de la ville de Bukavu  
                    <br />
-                   <span className="flex items-center mt-2">
+                   <span className="flex items-center mt-4">
                     <FontAwesomeIcon icon={faClock} className="w-4 h-4 mr-2 text-purple-400" />  <em>Août 2020 à Mars 2021.</em>
                    </span>
                   </p>
